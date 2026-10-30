@@ -1,0 +1,18 @@
+clc;
+clear;
+close all;
+
+A = 3;
+f = 2;
+
+t = 0:0.01:1;
+
+x = A*sin(2*pi*f*t);
+
+plot(t,x);
+grid on;
+
+xlabel('Time (s)');
+ylabel('Amplitude');
+title('Sine Signal');
+amplitude change
